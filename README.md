@@ -49,7 +49,7 @@ Trong bảng, **Editor** được sửa, **Viewer** chỉ xem, **Không cấp** 
 | 2. Bản thiết kế UI và tài sản đồ họa | Viewer | Editor | Không cấp | Không cấp | Lưu ở `02_ThietKe`; Ban KT xem để triển khai giao diện. |
 | 3. Business Plan | Viewer | Không cấp | Editor | Viewer, hết hạn sau 14 ngày | Lưu ở `03_KinhDoanh`; chỉ chia sẻ riêng file đã duyệt cho Ban KT và nhà đầu tư, không chia sẻ cả thư mục. |
 | 4. Slide Pitch và Business Summary | Viewer | Editor với Slide Pitch, Viewer với Summary | Editor | Viewer bản PDF Slide Pitch trong 14 ngày; không cấp Summary | Lưu ở `04_LienBan`; chia sẻ riêng từng file. Nhà đầu tư không được sửa bản gốc. |
-| 5. API keys và thông tin khách hàng | Chỉ người KT phụ trách API keys | Không cấp | Chỉ người KD phụ trách dữ liệu khách hàng | Không cấp | Lưu ở `05_BaoMat`, Restricted. Không cấp quyền chung cho cả ban hoặc cả thư mục; mỗi file chỉ cấp đúng người phụ trách. |
+| 5. API keys và thông tin khách hàng | Editor chỉ với file API keys được giao; không cấp file khách hàng | Không cấp | Editor chỉ với file khách hàng được giao; không cấp file API keys | Không cấp | Lưu ở `05_BaoMat`, Restricted. Không cấp quyền chung cho cả ban hoặc cả thư mục; mỗi file chỉ cấp đúng người phụ trách. |
 
 Trưởng nhóm là người quản lý cấu trúc và có quyền xử lý các trường hợp thay đổi nhân sự. Trong hàng 5, người phụ trách chỉ được quyền cần cho công việc của mình; không vì cùng thuộc một ban mà được xem tất cả file nhạy cảm.
 
